@@ -2,7 +2,7 @@
 // Function to display
 function valueToDisplay(value){
     let display = document.getElementById("display");
-    if(display.value.length < 50){
+    if(display.value.length < 20){
         display.value += value;
     }
 }
